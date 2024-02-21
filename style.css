@@ -53,7 +53,6 @@ a {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  padding-left: 120px;
 }
 
 .nav-list {
@@ -67,6 +66,10 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.header-photo-box{
+  margin-right: 12px;
 }
 
 .header-list {
@@ -190,6 +193,7 @@ a {
   gap: 31px;
 }
 
+
 .popular {
   margin-bottom: 200px;
   padding-left: 108px;
@@ -225,6 +229,7 @@ a {
   font-weight: 500;
   line-height: 30px; /* 166.667% */
   margin-bottom: 90px;
+  
 }
 
 .popular-list {
@@ -245,9 +250,9 @@ a {
 .popular-item:hover {
   border: 2px solid rgba(255, 255, 255, 0.8);
   background-image: url(./img/rectangle5.png);
-  backdrop-filter: blur(25px);
+  /* backdrop-filter: blur(25px);
   width: 392px;
-  height: 294px;
+  height: 294px; */
 }
 .popular-title {
   color: rgba(255, 255, 255, 0.78);
@@ -278,6 +283,7 @@ a {
   width: 326px;
   padding-left: 33px;
   padding-right: 33px;
+  margin-bottom: 129px;
 }
 
 .popular-button-box {
@@ -523,7 +529,7 @@ hr {
 
 .logo-box {
   display: flex;
-  margin-bottom: 98px;
+  
 }
 
 .footer-photo-box {
